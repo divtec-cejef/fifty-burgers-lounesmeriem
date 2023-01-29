@@ -3,15 +3,57 @@
 }
 
 head {
-
+   height: 160px;
 }
 
 header{
     background: black;
     text-align: center;
-
+    margin-inside: 10px;
 }
 
 img {
- text-align: center;
+  text-align: center;
+  height: 160px;
+
+}
+
+h1{
+    line-height: 0.9em;
+    color: #fdc032;
+    font-size: 4em;
+    font-family:'Georgia',sans-serif;
+    text-align: center;
+    margin-inside: 20px;
+    margin-outside: 0 px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+
+}
+
+.Burger {
+    text-align: center;
+    margin-inside: 20px;
+    margin-outside: 0 px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+
+}
+
+p {
+    font-size:1.3em;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.5em;
+}
+
+h2{
+    font-size: 2.5em;
+    margin-outside: 60px 20px 0px 0px;
+    text-align: center;
+    font-family:'Georgia',sans-serif;
+
 }
