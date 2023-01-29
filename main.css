@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+head {
+
+}
+
+header{
+    background: black;
+    text-align: center;
+
+}
+
+img {
+ text-align: center;
+}
