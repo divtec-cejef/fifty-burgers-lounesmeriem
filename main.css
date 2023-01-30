@@ -5,7 +5,14 @@
 head {
    height: 160px;
 }
-
+body{
+    font-family: Verdana,sans-serif;
+    font-weight: normal;
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: black;
+    background: white;
+}
 header{
     background: black;
     text-align: center;
@@ -13,22 +20,20 @@ header{
 }
 
 img {
-  text-align: center;
-  height: 160px;
-
+    text-align: center;
+    height: auto;
+    width: auto;
+    max-width: 100%;
 }
 
 h1{
     line-height: 0.9em;
     color: #fdc032;
-    font-size: 4em;
+    font-size: 4.8em;
+    font-weight: normal;
     font-family:'Georgia',sans-serif;
     text-align: center;
-    margin-inside: 20px;
-    margin-outside: 0 px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 600px;
+
 
 }
 
@@ -38,22 +43,65 @@ h1{
     margin-outside: 0 px;
     margin-left: auto;
     margin-right: auto;
-    max-width: 600px;
+    max-width: 600%;
 
 }
 
-p {
-    font-size:1.3em;
+.introduction {
+    font-size:1.6em;
     font-style: italic;
     text-align: center;
     text-transform: uppercase;
-    line-height: 1.5em;
+    line-height: 1.4em;
+    font-weight: normal;
+    font-family:'Verdana',sans-serif;
+    text-space: 1.5em;
+    max-width: 600%;
 }
 
 h2{
     font-size: 2.5em;
     margin-outside: 60px 20px 0px 0px;
     text-align: center;
+    font-weight: normal;
     font-family:'Georgia',sans-serif;
+
+}
+ul{
+    list-style-type: none;
+    text-align: center;
+    font-weight: normal;
+    font-family:'Verdana',sans-serif;
+    background:#E8A062;
+    color: #ffffff;
+    margin: 40px auto;
+    padding: 0;
+    margin-inside: 10px 10px 40px 40px;
+    border-radius:30px 30px 30px 30px;
+    max-width: 600px;
+}
+.element2{
+    border-top:5px #fdc032 solid;
+    background:#823922;
+    border-bottom: 5px #00A24B solid;
+    line-height: 1.5em;
+}
+
+.element4 {
+    border-top:5px #fdc032 solid;
+    background:#823922;
+    border-bottom: 5px #00A24B solid;
+    line-height: 1.5em;
+}
+
+p{
+    font-family:"verdana",sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size:1.2em;
+    line-height: 1.5em;
+    text-align:center;
+    width: 600px;
+    margin: 0 auto;
 
 }
