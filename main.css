@@ -57,6 +57,7 @@ h1{
     font-family:'Verdana',sans-serif;
     text-space: 1.5em;
     max-width: 600%;
+    height: auto;
 }
 
 h2{
@@ -67,6 +68,7 @@ h2{
     font-family:'Georgia',sans-serif;
 
 }
+
 ul{
     list-style-type: none;
     text-align: center;
@@ -97,11 +99,42 @@ ul{
 p{
     font-family:"verdana",sans-serif;
     font-style: normal;
-    font-weight: 100;
+    font-weight: normal;
     font-size:1.2em;
     line-height: 1.5em;
     text-align:center;
     width: 600px;
     margin: 0 auto;
+    height: auto;
+    max-width: 600%;
 
+}
+
+h2{
+    font-family: Georgia,sans-serif;
+    font-size: 2.5em;
+    color: black;
+    margin-outside: 60px 20px 0px 0px;
+    font-weight: bold;
+    line-height: 1.4em;
+    height: auto;
+}
+
+h3 {
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ma-classe {
+    color : #00A24B;
+    text-align: center;
+}
+
+.un:hover{
+    color: #E8A062;
+}
+
+.a {
+    color: #E8A062;
 }
